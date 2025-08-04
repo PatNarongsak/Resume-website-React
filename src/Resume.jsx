@@ -8,7 +8,7 @@ export default function Resume() {
         </div>
         <div className="resume-row">
             <h2>Experience</h2>
-            <a href="#" className="btn btn-primary-download resume-download">DOWNLOAD CV</a>
+            <a href="https://drive.google.com/file/d/1sI9nwPYZ1Vza5OXHmHynP9U7_BHoNt5B/view?usp=sharing" target='_blank' className="btn btn-primary-download resume-download">DOWNLOAD CV</a>
         </div>
         <section className="resume-section-card">
             <div className="resume-card">

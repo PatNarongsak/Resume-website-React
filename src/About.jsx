@@ -20,7 +20,7 @@ export default function About() {
                 <div className="profile-social">
                     <a href="https://www.facebook.com/narongsak.muandao/" target="_blank"><i className="fab fa-facebook-f"></i></a>
                     <a href="#"><i className="fab fa-twitter"></i></a>
-                    <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/PatNarongsak"><i className="fab fa-github"></i></a>
                     <a href="#"><i className="fab fa-instagram"></i></a>
                 </div>
         </div>
