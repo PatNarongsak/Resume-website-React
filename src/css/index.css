@@ -1,0 +1,83 @@
+/* Global Responsive Styles for Mobile 420px and below */
+@media (max-width: 420px) {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  body {
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Global container adjustments */
+  .container {
+    padding: 0 15px;
+    max-width: 100%;
+  }
+  
+  /* Typography adjustments */
+  h1 {
+    font-size: 1.8rem;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  
+  /* Button adjustments */
+  .btn {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+    min-height: 44px; /* Touch-friendly minimum */
+  }
+  
+  /* Link adjustments */
+  a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  /* Form elements */
+  input, textarea, select {
+    font-size: 16px; /* Prevent zoom on iOS */
+    min-height: 44px;
+    padding: 8px 12px;
+  }
+  
+  /* Utility classes */
+  .text-center-mobile {
+    text-align: center;
+  }
+  
+  .hide-mobile {
+    display: none !important;
+  }
+  
+  .show-mobile {
+    display: block !important;
+  }
+}

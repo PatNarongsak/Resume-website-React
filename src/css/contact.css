@@ -70,3 +70,50 @@
 .btn.btn-primary:hover {
   background: #003fa3;
 }
+
+@media (max-width: 420px) {
+  .main-container-contact {
+    margin-top: 120px;
+    margin-bottom: 40px;
+    padding: 20px 10px;
+  }
+  
+  .contact-form {
+    padding: 30px 20px 25px 20px;
+    width: 95%;
+    gap: 15px;
+  }
+  
+  .contact-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-field {
+    margin-bottom: 5px;
+  }
+  
+  .contact-form label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+    padding: 6px 4px;
+    margin-bottom: 6px;
+  }
+  
+  .contact-form textarea {
+    min-height: 100px;
+  }
+  
+  .btn.btn-primary {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+    margin-top: 12px;
+    width: 100%;
+    border-radius: 15px;
+  }
+}

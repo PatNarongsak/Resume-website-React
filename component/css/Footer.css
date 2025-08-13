@@ -82,3 +82,59 @@
         font-size: 1.5rem;
     }
 }
+
+@media (max-width: 420px) {
+    .footer-container {
+        padding: 20px 15px;
+        gap: 20px;
+    }
+    
+    .footer-left {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        text-align: center;
+        min-width: 100%;
+    }
+    
+    .footer-left a {
+        font-size: 0.9rem;
+    }
+    
+    .footer-right {
+        min-width: 100%;
+        align-items: center;
+    }
+    
+    .footer-contact {
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-contact > div {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .footer-contact b {
+        font-size: 1rem;
+        display: block;
+        margin-bottom: 8px;
+    }
+    
+    .footer-contact p {
+        font-size: 0.9rem;
+        margin: 5px 0;
+        line-height: 1.4;
+    }
+    
+    .footer-contact a {
+        margin-right: 12px;
+        font-size: 1.3rem;
+    }
+    
+    .footer-social {
+        margin-top: 12px;
+        text-align: center;
+    }
+}
