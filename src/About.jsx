@@ -28,7 +28,7 @@ export default function About() {
                 <h1>Guten Morgan</h1>
                 <h2>My mini Resume</h2>
                 <div className="intro-buttons">
-                    <Link to="/resume" className="btn-about btn-primary">RESUME</Link>
+                    <Link to="/Resume" className="btn-about btn-primary">RESUME</Link>
                     <Link to="/Project" className="btn-about btn-outline">PROJECTS</Link>
                 </div>
                 <p>Product Engineer with over 3 years of experience designing components to customer specifications using SolidWorks and AutoCAD. Skilled at overseeing production processes to ensure compliance with company standards, and managing and maintaining CNC laser cutting and CNC milling machines to boost efficiency, reduce scrap rates, and deliver high-quality parts on time. Committed to developing innovative manufacturing processes to support increasing production volumes..</p>
