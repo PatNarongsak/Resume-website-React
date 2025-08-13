@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-🔗 [View the website here](https://patnarongsak.github.io/react-resume-website)
+🔗 [View the website here](https://patnarongsak.github.io/Resume-website-React)
 
 ---
 
