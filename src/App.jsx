@@ -9,7 +9,7 @@ import Contact from './contact.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/Resume-website-React'>
       <Header />
       <Routes>
         <Route path="*" element={<About />} /> {/* Default route */}

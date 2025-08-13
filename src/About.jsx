@@ -11,7 +11,7 @@ export default function About() {
                     <img src={profilePic} alt="Profile" />
                 </div>
                 <div className="profile-name">Narongsak Mueandao</div>
-                <div className="profile-title">Student Born to dev</div>
+                <div className="profile-title">Student Programmer</div>
                 {/* Responsive 765px */}
                 <div className="intro-buttons-responsive">
                     <Link to="/resume" className="btn-about btn-primary-responsive">RESUME</Link>
