@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-🔗 [View the website here](https://patnarongsak.github.io/about)
+🔗 [View the website here](https://patnarongsak.github.io)
 
 ---
 
